@@ -1,7 +1,7 @@
 div.ui.container {
     margin-top: 30px;
 }
-.ui.form input:not([type]),
+/* .ui.form input:not([type]),
 .ui.form input[type=date],
 .ui.form input[type=datetime-local],
 .ui.form input[type=email],
@@ -15,4 +15,8 @@ div.ui.container {
 .ui.form input[type=url],
 .ui.form textarea{
     width: 5%!important;
+} */
+html,
+body {
+    font-size: 14px;
 }

@@ -8,38 +8,41 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="semantic/dist/semantic.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 </head>
 <body>
 	<div class="ui container">
-		<div class="ui stackable centered grid">
-
+		<div class="ui grid">
+			<div class="ui sixteen wide column">
+				<div class="ui row">
 					<form method="POST" class="ui form">
-					<label>Resistance Location (If Decimal Number, Round to Nearest Whole #)</label>
-					<input type="tel" name="resistLocation" id="resistLocation">
+					<div class="field"><label>Resistance Location (If Decimal Number, Round to Nearest Whole #)</label>
+					<input type="tel" name="resistLocation" id="resistLocation" style="background-image:none!important"></div>
+					 
 					
-					<br /><br /><br>
-					<!-- <label>Note... Not All 8 Lock Locations Are Required, but must be numbers that are locked in between decimal
-						numbers... So If it locks at 5.5 and 6.5, then you would enter 6</label> -->
-					<br><br><br>
-					<label>Lock Location 1</label>
+					<label>Note... Not All 8 Lock Locations Are Required, but must be numbers that are locked in between decimal
+						numbers... So If it locks at 5.5 and 6.5, then you would enter 6</label>
+						<br /><br /><br>
+					
+					<div class="field"><label>Lock Location 1</label>
 					<input type="tel" name="lockLoc1" id="lockLoc1">
-					<br /><br />
-					<label>Lock Location 2</label>
-					<input type="tel" name="lockLoc2" id="lockLoc2"><br /><br />
-					<label>Lock Location 3</label>
-					<input type="tel" name="lockLoc3" id="lockLoc3"><br /><br />
-					<label>Lock Location 4</label>
-					<input type="tel" name="lockLoc4" id="lockLoc4"><br /><br />
-					<label>Lock Location 5</label>
-					<input type="tel" name="lockLoc5" id="lockLoc5"><br /><br />
-					<label>Lock Location 6</label>
-					<input type="tel" name="lockLoc6" id="lockLoc6"><br /><br />
-					<label>Lock Location 7</label>
-					<input type="tel" name="lockLoc7" id="lockLoc7"><br /><br />
-					<label>Lock Location 8</label>
+					<br /><br /></div>
+					<div class="field"><label>Lock Location 2</label>
+					<input type="tel" name="lockLoc2" id="lockLoc2"><br /><br /></div>
+					<div class="field"><label>Lock Location 3</label>
+					<input type="tel" name="lockLoc3" id="lockLoc3"><br /><br /></div>
+					<div class="field"><label>Lock Location 4</label>
+					<input type="tel" name="lockLoc4" id="lockLoc4"><br /><br /></div>
+					<div class="field"><label>Lock Location 5</label>
+					<input type="tel" name="lockLoc5" id="lockLoc5"><br /><br /></div>
+					<div class="field"><label>Lock Location 6</label>
+					<input type="tel" name="lockLoc6" id="lockLoc6"><br /><br /></div>
+					<div class="field"><label>Lock Location 7</label>
+					<input type="tel" name="lockLoc7" id="lockLoc7"><br /><br /></div>
+					<div class="field"><label>Lock Location 8</label>
 					<input type="tel" name="lockLoc8" id="lockLoc8"><br><br><br>
-				
+				</div>
 					<div class="ui fade animated blue button" tabindex="0" onclick="comboCrack();">
 						<div class="hidden content">
 							<i class="unlock icon"></i>
@@ -50,6 +53,11 @@
 					</div>
 				
 				</form>
+				</div>
+				
+			</div>
+
+					
 			</div>
 		</div>
 	</div>
