@@ -224,9 +224,9 @@ function comboCrack() {
     combo2.push(finalArray2);
 
     //------------End Number 2------------------	
-    document.getElementById('combo1').value = combo1;
-    document.getElementById('combo2').value = combo2;
-    document.getElementById('combo3').value = combo3;
+    // document.getElementById('combo1').value = combo1;
+    // document.getElementById('combo2').value = combo2;
+    // document.getElementById('combo3').value = combo3;
     alert("The combination is: " + combo1 + ", (" + combo2 + "), (" + combo3 + ").");
 
 }
